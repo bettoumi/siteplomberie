@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*------Style header------*/
+#header
+{
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #585858;
+}
+.plomb 
+{
+	font-family: 'Shojumaru' ;
+	font-size: 30px;
+	color:#47a025;
+	font-weight: bold;
+}
+
+
+h1
+{
+	font-family:'Bungee Inline';
+}
+.inl
+{
+	display: inline-block;
+	vertical-align: baseline;
+
+}
+.right
+{
+	float:right;
+	margin-right: 20px;
+	padding: 10px;
+	color: #47a025;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+i{
+	color: black;
+
+}
+.lien
+{
+	position: relative;
+	text-decoration: none;
+	color:black;
+}
+.lien span
+{
+	display: none;
+	font-size: 16px;
+	z-index: 200;
+	color:#424242;
+
+}
+.lien:hover span
+{
+	display:inline;
+	position: absolute;
+	white-space: nowrap;
+	top:35px;
+	right: 50px;
+}
+.fa-comments-o
+{
+	color: #47a025;	
+}
+
+/*-------nav barre------*/
+ nav ul
+{
+	/*margin-top:50px;*/
+	list-style-type: none;
+	width: 100%;
+	height: 50px;
+	
+}
+
+ul li
+{
+	display: inline-block;
+	/*border:1px solid red;*/
+	padding: 10px 10px;
+	width:22%;
+	height:53%;
+	text-align: center;
+	transition: 0.4s;
+}
+
+nav li a
+{
+  text-decoration: none;
+  color:#424242;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul li:hover
+ {
+ 	background-color:#47a025;
+ 	
+ }
+ nav ul li:hover a
+ {
+	color: white;
+ }
+ .slid1 img
+ {
+ 	height: 300px;
+ 	width: 46%;
+ 	margin:0 1.6%;
+ 	display: inline-block;
+ }
+
+ .slid2 img, .slid2 div 
+{ 
+	display: inline-block;
+	height: 300px;
+	width:47%;
+	margin: 0 1.2%; 
+}
+.slid2 div
+{
+	vertical-align: top;
+}
