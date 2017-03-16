@@ -206,10 +206,48 @@ table th i
  #formcontact
  {
  	width: 80%;
-	height: 500px;
-	margin: auto;
-	background-color: #D8D8D8;
-	border:1px solid transparent;
+
+	height: 700px;
+	margin: 70px  auto;
+	
+	
+ }
+ #formcontact fieldset
+ {
+ 	width: 98%;
+ 	height:100%;
+ 	background-color: #d5e68d;
+ 	border:1px solid black;
 	border-radius: 5px;
-	 	
+	margin:auto;
+ }
+ #formcontact fieldset legend
+ {
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;	
+ }
+ #formcontact form
+ {
+ 	width: 100%;
+ 	margin:50px auto;
+ }
+
+ #formcontact form input,#formcontact form textarea 
+
+ {
+	width: 70%;
+	margin:0 20%;
+	padding: 10px;
+	border: 0.2px solid black;
+	border-radius: 5px;
+ }
+ #formcontact form label
+ {
+	font-weight: bold;
+	font-size: 20px;
+ }
+ #formcontact form input:hover, #formcontact form textarea:hover
+ {
+ 	box-shadow: 4px 4px #BDBDBD;
  }
