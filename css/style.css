@@ -139,6 +139,8 @@ nav ul li:hover
 	padding-left: 10px;
 	font-size: 20px;
 	font-weight: bold;
+	border-radius: 10px;
+	border:1px solid transparent;
 }
 
 .slid2 div ol li
@@ -155,4 +157,47 @@ footer
  	padding: 5px;
  	text-align: center;
  	font-weight: bold;
+} 
+/*-------style notarif page-----*/
+.tarif{
+	margin-top: 50px;
+}
+.tarif h1
+{
+ font-family: sans-serif;
+ text-align: center
+}
+
+/*----style table-----*/
+th, td 
+{
+	border:1px solid transparent;;
+	text-align: left;
+	padding-left: 20px;
+	height: 40px;
+	vertical-align: middle;
+	font-size: 20px;
+	font-style: italic;
+}
+th
+{
+	text-align: center;
+} 
+table
+{
+	border-collapse: collapse;
+	width: 80%;
+	margin:auto;
+}
+th
+{
+	background-color: #47a025;
+}
+tr:nth-child(odd)
+{
+  background-color: #BDBDBD;	
+}
+table th i
+{
+	vertical-align: middle;
 }
