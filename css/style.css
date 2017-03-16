@@ -187,7 +187,7 @@ table
 {
 	border-collapse: collapse;
 	width: 80%;
-	margin:auto;
+	margin:50px auto;
 }
 th
 {
@@ -210,9 +210,9 @@ table th i
 	height: 700px;
 	margin: auto;
 	margin-bottom: 20px;
-	
-	
+		
  }
+
  #formcontact fieldset
  {
  	width: 98%;
@@ -259,10 +259,12 @@ table th i
  	width: 80%;
  	height: 700px;
  	margin-left: 100px;
+
  }
  
   #localistaion, .googlemap
  {
  	width:100%;
 	text-align: center;
+	margin-bottom: 100px;
  }
