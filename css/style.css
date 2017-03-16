@@ -199,5 +199,17 @@ tr:nth-child(odd)
 }
 table th i
 {
-	vertical-align: middle;
+	vertical-align: middle;	
 }
+
+/*-------start style form--------*/
+ #formcontact
+ {
+ 	width: 80%;
+	height: 500px;
+	margin: auto;
+	background-color: #D8D8D8;
+	border:1px solid transparent;
+	border-radius: 5px;
+	 	
+ }
