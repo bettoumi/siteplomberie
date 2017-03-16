@@ -208,7 +208,8 @@ table th i
  	width: 80%;
 
 	height: 700px;
-	margin: 70px  auto;
+	margin: auto;
+	margin-bottom: 20px;
 	
 	
  }
@@ -250,4 +251,18 @@ table th i
  #formcontact form input:hover, #formcontact form textarea:hover
  {
  	box-shadow: 4px 4px #BDBDBD;
+ }
+
+ /*------style googlemap-----*/
+ #localistaion
+ {
+ 	width: 80%;
+ 	height: 700px;
+ 	margin-left: 100px;
+ }
+ 
+  #localistaion, .googlemap
+ {
+ 	width:100%;
+	text-align: center;
  }
