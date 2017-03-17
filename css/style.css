@@ -1,7 +1,10 @@
+*{
+	box-sizing: border-box;
+}
 body{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	
 }
 /*------Style header------*/
 #header
@@ -20,7 +23,7 @@ body{
 }
 
 
-h1
+h1 , .plomb2
 {
 	font-family:'Bungee Inline';
 }
@@ -87,7 +90,7 @@ ul li
 	/*border:1px solid red;*/
 	padding: 10px 10px;
 	width:22%;
-	height:53%;
+	height:75%;
 	text-align: center;
 	transition: 0.4s;
 }
@@ -109,6 +112,10 @@ nav ul li:hover
  {
 	color: white;
  }
+/*----------end nav style---------*/
+
+
+/*-----------start pres index.html------*/
  .slid1, .slid2
  {
  	width: 100%;
@@ -137,12 +144,27 @@ nav ul li:hover
 .slid2 div
 {
 	vertical-align: top;
-	background-color: rgb(196,202,224);
+	background-color: rgba(187,128,113,0.3);
 	padding-left: 10px;
 	font-size: 20px;
 	font-weight: bold;
 	border:1px solid transparent;
 	word-spacing: 6px;
+}
+/*-----animation for p----*/
+.slid2 div p
+{
+	animation-name: bouger;
+	animation-duration: 0.3s;
+}
+@keyframes bouger
+{
+	from{
+		margin-left: 0px;
+	}
+	to{
+	   margin-right: 0px;
+	}
 }
 
 .slid2 div ol li
@@ -270,3 +292,42 @@ table th i
 	text-align: center;
 	margin-bottom: 100px;
  }
+
+/*---------Style info page-------*/
+.info
+{
+	width: 100%;
+	height:700px;
+}
+.nous-somme
+{
+	width: 68%;
+	vertical-align: top;
+	word-spacing: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: justify;
+	background-color: rgba(187,128,113,0.3);
+	height:425px;
+	padding: 5px 10px
+
+}
+.nous-somme p
+{
+	margin-bottom: 30px;
+}
+.aside1
+{
+	width: 30%;
+	height:425px;
+
+}
+.aside1 img
+{
+	width:100%;
+	height: 100%;
+}
+.enli
+{
+	display: inline-block;
+}
