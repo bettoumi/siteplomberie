@@ -1,11 +1,13 @@
 *{
 	box-sizing: border-box;
 }
-body{
+body
+{
 	margin: 0;
 	padding: 0;
 	
 }
+
 /*------Style header------*/
 #header
 {
@@ -74,10 +76,13 @@ i{
 	color: #47a025;	
 }
 
+/*-------End header----*/ 
+
+
 /*-------nav barre------*/
  nav ul
 {
-	/*margin-top:50px;*/
+	
 	list-style-type: none;
 	width: 100%;
 	height: 50px;
@@ -112,7 +117,7 @@ nav ul li:hover
  {
 	color: white;
  }
-/*----------end nav style---------*/
+/*----------end nav---------*/
 
 
 /*-----------start pres index.html------*/
@@ -151,26 +156,35 @@ nav ul li:hover
 	border:1px solid transparent;
 	word-spacing: 6px;
 }
+
 /*-----animation for p----*/
-.slid2 div p
+
+.slid2 div p, .slid2 div ol
 {
 	animation-name: bouger;
-	animation-duration: 0.3s;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
 }
 @keyframes bouger
 {
 	from{
-		margin-left: 0px;
+		margin-top: 0px;
+	}
+	50%{
+		font-size: 20px;
+		color:#4f5d2f;
 	}
 	to{
-	   margin-right: 0px;
+	   margin-bottom:  0px;
 	}
 }
 
 .slid2 div ol li
 {
-	padding: 10px;
+	padding: 20px;
 }
+
+
 
 /*------style footer------*/
 footer
@@ -182,6 +196,8 @@ footer
  	text-align: center;
  	font-weight: bold;
 } 
+
+
 /*-------style notarif page-----*/
 .tarif{
 	margin-top: 50px;
@@ -219,12 +235,13 @@ th
 }
 tr:nth-child(odd)
 {
-  background-color: #BDBDBD;	
+  background-color: rgba(187,128,113,0.3);	
 }
 table th i
 {
 	vertical-align: middle;	
 }
+
 
 /*-------start style form--------*/
  #formcontact
@@ -241,7 +258,7 @@ table th i
  {
  	width: 98%;
  	height:100%;
- 	background-color: #d5e68d;
+ 	background-color: rgba(187,128,113,0.3);
  	border:1px solid black;
 	border-radius: 5px;
 	margin:auto;
@@ -293,11 +310,14 @@ table th i
 	margin-bottom: 100px;
  }
 
+
 /*---------Style info page-------*/
+
 .info
 {
 	width: 100%;
-	height:700px;
+	height:426px;
+	margin-bottom: 0px;
 }
 .nous-somme
 {
@@ -330,4 +350,48 @@ table th i
 .enli
 {
 	display: inline-block;
+}
+
+.basinfo
+{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(187,128,113,0.3);
+
+}
+.basinfo h3
+{
+	font-family: 'Shojumaru';
+
+}
+.basinfo p
+{
+	font-size: 15px;
+	
+	font-style: italic;
+
+}
+.basinfo h3, .basinfo p
+{
+	animation-name: bouger2;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes bouger2
+{
+	0%{
+		font-size: 15px;
+	}
+	50%{
+		font-size: 20px;
+		color:#4f5d2f;
+		font-weight: bold;
+	}
+	to{
+	   margin:auto;
+	   font-size: 15px;
+	   color:black;
+
+	}
 }
