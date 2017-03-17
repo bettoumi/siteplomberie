@@ -121,6 +121,7 @@ nav ul li:hover
  	margin:0 1.2% ;
  	margin-left: 32px;
  	display: inline-block;
+ 	border-radius: 10px;
  }
 
  .slid2 img, .slid2 div 
@@ -130,6 +131,7 @@ nav ul li:hover
 	width:46%;
 	margin: 0 1.2%; 
 	margin-left: 25px;
+	border-radius: 10px;
 }
 
 .slid2 div
@@ -139,8 +141,8 @@ nav ul li:hover
 	padding-left: 10px;
 	font-size: 20px;
 	font-weight: bold;
-	border-radius: 10px;
 	border:1px solid transparent;
+	word-spacing: 6px;
 }
 
 .slid2 div ol li
