@@ -1,5 +1,5 @@
 # siteplomberie
-=====Site de societe de plomberie======
+===== Site de societe de plomberie ======
 --------------------------------------
 Mon site contient trois pages:
 + page index.html dans la quel je presenter en genarle l'entreprise
