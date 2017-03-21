@@ -121,68 +121,64 @@ nav ul li:hover
 
 
 /*-----------start pres index.html------*/
- .slid1, .slid2
+ .slid1
  {
- 	width: 100%;
- 	height: 350px;
- }
- .slid1 img
- {
+ 	width: 90%;
  	height: 300px;
- 	width: 46%;
- 	margin:0 1.2% ;
- 	margin-left: 32px;
- 	display: inline-block;
- 	border-radius: 10px;
  }
-
- .slid2 img, .slid2 div 
-{ 
-	display: inline-block;
-	height: 300px;
-	width:46%;
-	margin: 0 1.2%; 
-	margin-left: 25px;
-	border-radius: 10px;
-}
-
-.slid2 div
+ .slid1 div
 {
-	vertical-align: top;
-	background-color: rgba(187,128,113,0.3);
+	width: 100%;
+	height: 100%;
+	background-color: #f2f2f2;
 	padding-left: 10px;
 	font-size: 20px;
 	font-weight: bold;
+	margin: 20px 6%;
 	border:1px solid transparent;
 	word-spacing: 6px;
 }
-
-/*-----animation for p----*/
-
-.slid2 div p, .slid2 div ol
-{
-	animation-name: bouger;
-	animation-duration:5s;
-	animation-iteration-count: infinite;
-}
-@keyframes bouger
-{
-	from{
-		margin-top: 0px;
-	}
-	50%{
-		font-size: 20px;
-		color:#4f5d2f;
-	}
-	to{
-	   margin-bottom:  0px;
-	}
-}
-
-.slid2 div ol li
+.slid1 div ol li
 {
 	padding: 20px;
 }
+
+/*-----style slid2----*/
+ .slid2
+ {
+ 	width: 100%;
+ 	height: 500px;
+ }
+ .slid2 figure
+
+{
+	width:25%;
+	height: 80%;
+ 	display: inline-block;
+
+
+}
+.slid2  figure img
+ {
+ 		
+ 	width: 100%;
+	height: 70%
+ 	border-radius: 5px;
+ 	border: 1px solid transparent;
+  	box-shadow: 2px 2px #47a025;
+ }
+ .slid2 figure span
+ {
+ 	font-weight: bold;
+ 	font-style: italic;
+ 	font-size: 15px;
+
+ }
+
+
+
+
+
 
 
 
@@ -258,8 +254,8 @@ table th i
  {
  	width: 98%;
  	height:100%;
- 	background-color: rgba(187,128,113,0.3);
- 	border:1px solid black;
+ 	/*background-color: rgba(187,128,113,0.3);*/
+
 	border-radius: 5px;
 	margin:auto;
  }
@@ -273,6 +269,7 @@ table th i
  {
  	width: 100%;
  	margin:50px auto;
+
  }
 
  #formcontact form input,#formcontact form textarea 
@@ -281,8 +278,14 @@ table th i
 	width: 70%;
 	margin:0 20%;
 	padding: 10px;
-	border: 0.2px solid black;
 	border-radius: 5px;
+	border:1px solid grey;
+ 	box-shadow: 2px 2px grey;
+ }
+ #formcontact form input[placeholder],#formcontact form textarea[placeholder] 
+ {
+	color: #47a025;
+	font-weight: bold;
  }
  #formcontact form label
  {
@@ -327,7 +330,7 @@ table th i
 	font-size: 18px;
 	font-weight: bold;
 	text-align: justify;
-	background-color: rgba(187,128,113,0.3);
+	/*background-color: rgba(187,128,113,0.3);*/
 	height:425px;
 	padding: 5px 10px
 
@@ -356,7 +359,7 @@ table th i
 {
 	width: 100%;
 	height: 100px;
-	background-color: rgba(187,128,113,0.3);
+	/*background-color: rgba(187,128,113,0.3);*/
 
 }
 .basinfo h3
